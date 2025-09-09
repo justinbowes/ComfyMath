@@ -40,7 +40,7 @@ class NumberUnaryCondition:
             }
         }
 
-    RETURN_TYPES = ("BOOL",)
+    RETURN_TYPES = ("BOOLEAN",)
     FUNCTION = "op"
     CATEGORY = "math/Number"
 
@@ -78,7 +78,7 @@ class NumberBinaryCondition:
             }
         }
 
-    RETURN_TYPES = ("BOOL",)
+    RETURN_TYPES = ("BOOLEAN",)
     FUNCTION = "op"
     CATEGORY = "math/float"
 

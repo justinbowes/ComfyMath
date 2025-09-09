@@ -75,7 +75,7 @@ class IntUnaryCondition:
             "required": {"op": (list(INT_UNARY_CONDITIONS.keys()),), "a": DEFAULT_INT}
         }
 
-    RETURN_TYPES = ("BOOL",)
+    RETURN_TYPES = ("BOOLEAN",)
     FUNCTION = "op"
     CATEGORY = "math/int"
 
@@ -113,7 +113,7 @@ class IntBinaryCondition:
             }
         }
 
-    RETURN_TYPES = ("BOOL",)
+    RETURN_TYPES = ("BOOLEAN",)
     FUNCTION = "op"
     CATEGORY = "math/int"
 
